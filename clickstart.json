@@ -1,0 +1,25 @@
+{
+    "id": "angularjs-clickstart",
+    "name": "Angular js goodness",
+    "source": "github",
+    "description" : "test and deploy an angular js app",
+    "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/nodejs_large.png",
+
+    "supported-by" : "community",
+    "order" : 10,
+
+    "runtime": {
+        "type": "nodejs",
+         "app-parameters" : { 
+            "runtime.PLUGIN.SRC.nodejs": "https://s3.amazonaws.com/cloudbees-downloads/clickstack/node-clickstack.zip"
+        }    
+    },
+    
+    "build-with-jenkins": {
+	"template": {
+            "type": "https://raw.github.com/michaelneale/angular-seed/master/jenkins.xml",
+            "options": {
+            }            
+        }
+    }
+}
