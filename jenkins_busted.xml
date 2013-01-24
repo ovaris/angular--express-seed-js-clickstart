@@ -74,6 +74,11 @@
   <builders>
     <hudson.tasks.Shell>
       <command>
+
+#enable x11
+export DISPLAY=:1
+Xvfb :1 &
+
 node_version=v0.8.14
 
 file_name=node-$node_version-linux-x64
@@ -88,12 +93,8 @@ mkdir target
 
 node_dir=$PWD/$file_name
 
-cd app
-$node_dir/bin/npm install
-$node_dir/bin/npm test
-
-rm -rf ../target/app.zip
-zip -r ../target/app.zip *
+$node_dir/bin/npm install -g testacular
+scripts/test.sh
 
 </command>
     </hudson.tasks.Shell>
