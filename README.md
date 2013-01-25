@@ -1,8 +1,9 @@
-# Welcome to AngularJS on CloudBees
+# Welcome to Angular.JS on CloudBees
 
-If you are running this app running - CloudBees - well done. If not, you can run it by 
-going to http://developer.cloudbees.com and pressing the angular button ! - an embedded node.js app is serving this up.
-Replace it with what you want. Enjoy. 
+This is a "ClickStart" version of the Angular.js "seed" starting point. You can launch it new by going to 
+http://developer.cloudbees.com and pressing the angular button. It will setup a Jenkins build running the test suite 
+with testacular and Chrome, and then, should it pass the tests, deploys this served up from a tiny node.js server (you 
+can then clone and mess with it, or change the backend to what you need). 
 
 # angular-seed — the seed for AngularJS apps
 
