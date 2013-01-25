@@ -1,12 +1,12 @@
 {
     "id": "angularjs-clickstart",
-    "name": "Angular js goodness",
+    "name": "Angular js - HTML enhanced for web apps.",
     "source": "github",
-    "description" : "test and deploy an angular js app",
-    "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/nodejs_large.png",
+    "description" : "Setup a build pipeline, Chrome based test and deploy it",
+    "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/angularjs.png",
 
     "supported-by" : "community",
-    "order" : 10,
+    "order" : 5,
 
     "runtime": {
         "type": "nodejs",
