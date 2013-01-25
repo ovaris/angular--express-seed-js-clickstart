@@ -2,7 +2,7 @@
     "id": "angularjs-clickstart",
     "name": "Angular js - HTML enhanced for web apps.",
     "source": "github",
-    "description" : "Setup a build pipeline, Chrome based test and deploy it",
+    "description" : "Setup a Jenkins build running Angular tests with Chrome and deploy it",
     "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/angularjs.png",
 
     "supported-by" : "community",
