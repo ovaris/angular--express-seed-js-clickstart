@@ -1,3 +1,9 @@
+# Welcome to AngularJS on CloudBees
+
+If you are running this app running - CloudBees - well done. If not, you can run it by 
+going to http://developer.cloudbees.com and pressing the angular button ! - an embedded node.js app is serving this up.
+Replace it with what you want. Enjoy. 
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.

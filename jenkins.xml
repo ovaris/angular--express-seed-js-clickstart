@@ -77,8 +77,11 @@
 export DISPLAY=:1
 Xvfb :1 &amp;
 
-node_version=v0.8.14
+#
+# Fetch node and testacular if we don't have it already
+#
 
+node_version=v0.8.14
 install_name=node-$node_version-linux-x64
 node_home=$PWD/$install_name
 
@@ -89,10 +92,23 @@ then
     $node_home/bin/npm install -g testacular
 fi
 
+# 
+# run the Angular.js tests (using a browser on the build server)
+#
 
 export PATH=$PATH:$node_home/bin
 scripts/test.sh
 
+#
+# package the app for the CloudBees node.js stack (deployer picks it up)
+# 
+
+sed 's/8000/process.env.PORT/g' scripts/web-server.js > app/main.js
+cp README.md app
+cd app
+mkdir -p ../target
+rm -rf ../target/app.zip
+zip -r ../target/app.zip *
 
 </command>
     </hudson.tasks.Shell>
