@@ -17,7 +17,7 @@
     
     "build-with-jenkins": {
 	"template": {
-            "type": "https://raw.github.com/CloudBees-community/angular-seed/master/jenkins.xml",
+            "type": "https://raw.github.com/CloudBees-community/angular-js-clickstart/master/jenkins.xml",
             "options": {
             }            
         }
