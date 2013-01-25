@@ -1,8 +1,8 @@
 {
     "id": "angularjs-clickstart",
-    "name": "Angular js - HTML enhanced for web apps.",
+    "name": "Angular js - HTML enhanced for web apps",
     "source": "github",
-    "description" : "Setup a Jenkins build running Angular tests with Chrome and deploy it",
+    "description" : "Setup a Jenkins running Angular tests (with Chrome) and deploy the 'seed' app",
     "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/angularjs.png",
 
     "supported-by" : "community",
@@ -17,7 +17,7 @@
     
     "build-with-jenkins": {
 	"template": {
-            "type": "https://raw.github.com/michaelneale/angular-seed/master/jenkins.xml",
+            "type": "https://raw.github.com/CloudBees-community/angular-seed/master/jenkins.xml",
             "options": {
             }            
         }
