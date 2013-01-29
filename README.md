@@ -1,9 +1,22 @@
 # Welcome to Angular.JS on CloudBees
 
-This is a "ClickStart" version of the Angular.js "seed" starting point. You can launch it new by going to 
-http://developer.cloudbees.com and pressing the angular button. It will setup a Jenkins build running the test suite 
-with testacular and Chrome, and then, should it pass the tests, deploys this served up from a tiny node.js server (you 
+This is a "ClickStart" version of the AngularJS "seed" starting point. You can launch it here: 
+
+<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/angular-js-clickstart/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
+
+This will setup a Jenkins build running the test suite (on each commit) 
+with testacular and Chrome, and then, should it pass the tests, deploys this seed as an app served up from a tiny node.js server (you 
 can then clone and mess with it, or change the backend to what you need). 
+
+Once your app is running, you can browse to (app)/index.html - and have a poke around. 
+It will have instructions on how to clone and customise it.
+
+AngularJS home page is [Here](http://angularjs.org/)
+
+And you can read about the see project below (which was [forked](https://github.com/angular/angular-seed) for this):
+
+
+
 
 # angular-seed — the seed for AngularJS apps
 
