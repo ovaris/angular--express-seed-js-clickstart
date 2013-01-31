@@ -12,7 +12,7 @@ files = [
 
 autoWatch = true;
 
-browsers = ['Chrome'];
+browsers = ['Chrome', 'Firefox'];
 
 singleRun = true;
 
