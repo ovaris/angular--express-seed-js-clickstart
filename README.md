@@ -4,8 +4,8 @@ This is a "ClickStart" version of the AngularJS "seed" starting point. You can l
 
 <a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/angular-js-clickstart/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
 
-This will setup a Jenkins build running the test suite (on each commit) 
-with testacular and Chrome, and then, should it pass the tests, deploys this seed as an app served up from a tiny node.js server (you 
+This will setup a Jenkins build running the test suite (on each commit) with Chrome and Firefox.
+Should it pass the tests, this seed app is deployed served up from a tiny node.js server (you 
 can then clone and mess with it, or change the backend to what you need). 
 
 Once your app is running, you can browse to (app)/index.html - and have a poke around. 
