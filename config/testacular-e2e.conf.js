@@ -8,7 +8,7 @@ files = [
 
 autoWatch = false;
 
-browsers = ['Chrome'];
+browsers = ['Chrome', 'Firefox'];
 
 singleRun = true;
 
