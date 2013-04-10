@@ -89,7 +89,7 @@ if [ ! -e $install_name.tar.gz ]
 then
     wget http://nodejs.org/dist/$node_version/$install_name.tar.gz
     tar xf $install_name.tar.gz
-    $node_home/bin/npm install -g testacular
+    $node_home/bin/npm install -g karma
 fi
 
 # 
