@@ -1,9 +1,8 @@
 {
-    "id": "angularjs-clickstart",
+    "id": "angular-express-seed-clickstart",
     "name": "AngularJS - HTML enhanced for web apps!",
-    "source": "git://github.com/angular/angular-seed.git",
-    "patched-source" : "git://github.com/michaelneale/angular-seed.git",
-    "description" : "Setup a Jenkins running Angular tests (with Chrome and Firefox) and deploy the 'seed' app",
+    "source": "git://github.com/btford/angular-express-seed.git",
+    "description" : "Setup a Jenkins and deploy the 'express-seed' app",
     "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/angularjs.png",
 
     "supported-by" : "community",
@@ -18,7 +17,7 @@
     
     "build-with-jenkins": {
 	"template": {
-            "type": "https://raw.github.com/CloudBees-community/angular-js-clickstart/master/jenkins.xml",
+            "type": "https://github.com/ovaris/angular--express-seed-js-clickstart/blob/master/jenkins.xml",
             "options": {
             }            
         }
