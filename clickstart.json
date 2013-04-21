@@ -17,7 +17,7 @@
     
     "build-with-jenkins": {
 	"template": {
-            "type": "https://github.com/ovaris/angular--express-seed-js-clickstart/blob/master/jenkins.xml",
+            "type": "https://raw.github.com/ovaris/angular--express-seed-js-clickstart/master/jenkins.xml",
             "options": {
             }            
         }

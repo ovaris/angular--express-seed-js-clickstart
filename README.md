@@ -5,7 +5,7 @@ This is a CloudBees "ClickStart" project for AngularJS "express-seed" project. F
 Run it here.
 
 
-<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://github.com/ovaris/angular--express-seed-js-clickstart/blob/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
+<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/ovaris/angular--express-seed-js-clickstart/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
 
 This will setup a continuous deployment pipeline. App is deployed served up from a tiny node.js server (you 
 can then clone and mess with it, or change the backend to what you need). 
