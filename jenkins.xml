@@ -82,11 +82,10 @@ Xvfb :1 &amp;
 # package the app for the CloudBees node.js stack (deployer picks it up)
 # 
 
-npm install
 
-mkdir -p ../target
-rm -rf ../target/app.zip
-zip -r ../target/app.zip *
+mkdir -p target
+rm -rf target/app.zip
+zip -r target/app.zip *
 
 </command>
     </hudson.tasks.Shell>
