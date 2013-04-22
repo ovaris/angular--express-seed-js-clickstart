@@ -82,7 +82,7 @@ Xvfb :1 &amp;
 # package the app for the CloudBees node.js stack (deployer picks it up)
 # 
 
-cat > "main.js" << EOF
+cat > "main.js" &lt;&lt; EOF
   var express = require('express'),
   routes = require('./routes'),
   api = require('./routes/api');
