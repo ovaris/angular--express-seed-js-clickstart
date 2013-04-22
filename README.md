@@ -12,6 +12,6 @@ can then clone and mess with it, or change the backend to what you need).
 
 AngularJS home page is [Here](http://angularjs.org/)
 
-The Angular-express-seed project is [here](https://github.com/angular/angular-express-seed)
+The Angular-express-seed project is [here](https://github.com/btford/angular-express-seed)
 
 
